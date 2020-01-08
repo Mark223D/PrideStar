@@ -1,0 +1,761 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4DFB6A1823C62947008D22BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFB6A1723C62947008D22BC /* AppDelegate.swift */; };
+		4DFB6A1A23C62947008D22BC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFB6A1923C62947008D22BC /* SceneDelegate.swift */; };
+		4DFB6A1C23C62947008D22BC /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFB6A1B23C62947008D22BC /* MainViewController.swift */; };
+		4DFB6A1F23C62947008D22BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DFB6A1D23C62947008D22BC /* Main.storyboard */; };
+		4DFB6A2123C62948008D22BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DFB6A2023C62948008D22BC /* Assets.xcassets */; };
+		4DFB6A2423C62948008D22BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DFB6A2223C62948008D22BC /* LaunchScreen.storyboard */; };
+		4DFB6A2F23C62949008D22BC /* PrideStarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFB6A2E23C62949008D22BC /* PrideStarTests.swift */; };
+		4DFB6A3A23C62949008D22BC /* PrideStarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFB6A3923C62949008D22BC /* PrideStarUITests.swift */; };
+		4DFB6A4823C62BD0008D22BC /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFB6A4723C62BD0008D22BC /* Colors.swift */; };
+		4DFB6A4A23C62D24008D22BC /* PillLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFB6A4923C62D24008D22BC /* PillLabel.swift */; };
+		4DFB6A4E23C63BE1008D22BC /* AdManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFB6A4D23C63BE1008D22BC /* AdManager.swift */; };
+		585A1D14FAE41375D0DDAEF9 /* Pods_PrideStar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FAE909927E52494433B51F3 /* Pods_PrideStar.framework */; };
+		925AF544892976AAAFBF533C /* Pods_PrideStar_PrideStarUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CC48BA917D71CE31E52F0F5 /* Pods_PrideStar_PrideStarUITests.framework */; };
+		EEF4AF2CA902135E229E2211 /* Pods_PrideStarTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3488222F1E911A540864121F /* Pods_PrideStarTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4DFB6A2B23C62949008D22BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4DFB6A0C23C62947008D22BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4DFB6A1323C62947008D22BC;
+			remoteInfo = PrideStar;
+		};
+		4DFB6A3623C62949008D22BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4DFB6A0C23C62947008D22BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4DFB6A1323C62947008D22BC;
+			remoteInfo = PrideStar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		12D469371B7BA35BFD7C5DDF /* Pods-PrideStar-PrideStarUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrideStar-PrideStarUITests.debug.xcconfig"; path = "Target Support Files/Pods-PrideStar-PrideStarUITests/Pods-PrideStar-PrideStarUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1EA95074BEC6EF78F360ACD9 /* Pods-PrideStarTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrideStarTests.release.xcconfig"; path = "Target Support Files/Pods-PrideStarTests/Pods-PrideStarTests.release.xcconfig"; sourceTree = "<group>"; };
+		3488222F1E911A540864121F /* Pods_PrideStarTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PrideStarTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DFB6A1423C62947008D22BC /* PrideStar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PrideStar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DFB6A1723C62947008D22BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4DFB6A1923C62947008D22BC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4DFB6A1B23C62947008D22BC /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		4DFB6A1E23C62947008D22BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4DFB6A2023C62948008D22BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4DFB6A2323C62948008D22BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4DFB6A2523C62948008D22BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DFB6A2A23C62949008D22BC /* PrideStarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PrideStarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DFB6A2E23C62949008D22BC /* PrideStarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrideStarTests.swift; sourceTree = "<group>"; };
+		4DFB6A3023C62949008D22BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DFB6A3523C62949008D22BC /* PrideStarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PrideStarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DFB6A3923C62949008D22BC /* PrideStarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrideStarUITests.swift; sourceTree = "<group>"; };
+		4DFB6A3B23C62949008D22BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DFB6A4723C62BD0008D22BC /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		4DFB6A4923C62D24008D22BC /* PillLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PillLabel.swift; sourceTree = "<group>"; };
+		4DFB6A4D23C63BE1008D22BC /* AdManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdManager.swift; sourceTree = "<group>"; };
+		5FAE909927E52494433B51F3 /* Pods_PrideStar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PrideStar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DA46D96C2FA2A20642866D7 /* Pods-PrideStar-PrideStarUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrideStar-PrideStarUITests.release.xcconfig"; path = "Target Support Files/Pods-PrideStar-PrideStarUITests/Pods-PrideStar-PrideStarUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9CC48BA917D71CE31E52F0F5 /* Pods_PrideStar_PrideStarUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PrideStar_PrideStarUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6014FF56559EDCC5A8DC8EF /* Pods-PrideStar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrideStar.debug.xcconfig"; path = "Target Support Files/Pods-PrideStar/Pods-PrideStar.debug.xcconfig"; sourceTree = "<group>"; };
+		D712B807974326329661ED45 /* Pods-PrideStarTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrideStarTests.debug.xcconfig"; path = "Target Support Files/Pods-PrideStarTests/Pods-PrideStarTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DC50EC59D202E56B8CE37388 /* Pods-PrideStar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrideStar.release.xcconfig"; path = "Target Support Files/Pods-PrideStar/Pods-PrideStar.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4DFB6A1123C62947008D22BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				585A1D14FAE41375D0DDAEF9 /* Pods_PrideStar.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DFB6A2723C62949008D22BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEF4AF2CA902135E229E2211 /* Pods_PrideStarTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DFB6A3223C62949008D22BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				925AF544892976AAAFBF533C /* Pods_PrideStar_PrideStarUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4DFB6A0B23C62947008D22BC = {
+			isa = PBXGroup;
+			children = (
+				4DFB6A1623C62947008D22BC /* PrideStar */,
+				4DFB6A2D23C62949008D22BC /* PrideStarTests */,
+				4DFB6A3823C62949008D22BC /* PrideStarUITests */,
+				4DFB6A1523C62947008D22BC /* Products */,
+				A4B606B98170CF610E8BAA88 /* Pods */,
+				B206DD3F7CE0505381160062 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4DFB6A1523C62947008D22BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4DFB6A1423C62947008D22BC /* PrideStar.app */,
+				4DFB6A2A23C62949008D22BC /* PrideStarTests.xctest */,
+				4DFB6A3523C62949008D22BC /* PrideStarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4DFB6A1623C62947008D22BC /* PrideStar */ = {
+			isa = PBXGroup;
+			children = (
+				4DFB6A1723C62947008D22BC /* AppDelegate.swift */,
+				4DFB6A1923C62947008D22BC /* SceneDelegate.swift */,
+				4DFB6A1B23C62947008D22BC /* MainViewController.swift */,
+				4DFB6A1D23C62947008D22BC /* Main.storyboard */,
+				4DFB6A2023C62948008D22BC /* Assets.xcassets */,
+				4DFB6A2223C62948008D22BC /* LaunchScreen.storyboard */,
+				4DFB6A2523C62948008D22BC /* Info.plist */,
+				4DFB6A4723C62BD0008D22BC /* Colors.swift */,
+				4DFB6A4923C62D24008D22BC /* PillLabel.swift */,
+				4DFB6A4D23C63BE1008D22BC /* AdManager.swift */,
+			);
+			path = PrideStar;
+			sourceTree = "<group>";
+		};
+		4DFB6A2D23C62949008D22BC /* PrideStarTests */ = {
+			isa = PBXGroup;
+			children = (
+				4DFB6A2E23C62949008D22BC /* PrideStarTests.swift */,
+				4DFB6A3023C62949008D22BC /* Info.plist */,
+			);
+			path = PrideStarTests;
+			sourceTree = "<group>";
+		};
+		4DFB6A3823C62949008D22BC /* PrideStarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4DFB6A3923C62949008D22BC /* PrideStarUITests.swift */,
+				4DFB6A3B23C62949008D22BC /* Info.plist */,
+			);
+			path = PrideStarUITests;
+			sourceTree = "<group>";
+		};
+		A4B606B98170CF610E8BAA88 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C6014FF56559EDCC5A8DC8EF /* Pods-PrideStar.debug.xcconfig */,
+				DC50EC59D202E56B8CE37388 /* Pods-PrideStar.release.xcconfig */,
+				12D469371B7BA35BFD7C5DDF /* Pods-PrideStar-PrideStarUITests.debug.xcconfig */,
+				8DA46D96C2FA2A20642866D7 /* Pods-PrideStar-PrideStarUITests.release.xcconfig */,
+				D712B807974326329661ED45 /* Pods-PrideStarTests.debug.xcconfig */,
+				1EA95074BEC6EF78F360ACD9 /* Pods-PrideStarTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B206DD3F7CE0505381160062 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5FAE909927E52494433B51F3 /* Pods_PrideStar.framework */,
+				9CC48BA917D71CE31E52F0F5 /* Pods_PrideStar_PrideStarUITests.framework */,
+				3488222F1E911A540864121F /* Pods_PrideStarTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4DFB6A1323C62947008D22BC /* PrideStar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DFB6A3E23C62949008D22BC /* Build configuration list for PBXNativeTarget "PrideStar" */;
+			buildPhases = (
+				E97D5DFDB356CF9FA4B696F3 /* [CP] Check Pods Manifest.lock */,
+				4DFB6A1023C62947008D22BC /* Sources */,
+				4DFB6A1123C62947008D22BC /* Frameworks */,
+				4DFB6A1223C62947008D22BC /* Resources */,
+				B33CBB844EE5E97516E48099 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PrideStar;
+			productName = PrideStar;
+			productReference = 4DFB6A1423C62947008D22BC /* PrideStar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4DFB6A2923C62949008D22BC /* PrideStarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DFB6A4123C62949008D22BC /* Build configuration list for PBXNativeTarget "PrideStarTests" */;
+			buildPhases = (
+				8E3E67BEF4DF869B8F5000CD /* [CP] Check Pods Manifest.lock */,
+				4DFB6A2623C62949008D22BC /* Sources */,
+				4DFB6A2723C62949008D22BC /* Frameworks */,
+				4DFB6A2823C62949008D22BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4DFB6A2C23C62949008D22BC /* PBXTargetDependency */,
+			);
+			name = PrideStarTests;
+			productName = PrideStarTests;
+			productReference = 4DFB6A2A23C62949008D22BC /* PrideStarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4DFB6A3423C62949008D22BC /* PrideStarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DFB6A4423C62949008D22BC /* Build configuration list for PBXNativeTarget "PrideStarUITests" */;
+			buildPhases = (
+				45CC35857BCC97CD0DEB1A64 /* [CP] Check Pods Manifest.lock */,
+				4DFB6A3123C62949008D22BC /* Sources */,
+				4DFB6A3223C62949008D22BC /* Frameworks */,
+				4DFB6A3323C62949008D22BC /* Resources */,
+				8057F26A194D38396B86B0F7 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4DFB6A3723C62949008D22BC /* PBXTargetDependency */,
+			);
+			name = PrideStarUITests;
+			productName = PrideStarUITests;
+			productReference = 4DFB6A3523C62949008D22BC /* PrideStarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4DFB6A0C23C62947008D22BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Mark Debbane";
+				TargetAttributes = {
+					4DFB6A1323C62947008D22BC = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					4DFB6A2923C62949008D22BC = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 4DFB6A1323C62947008D22BC;
+					};
+					4DFB6A3423C62949008D22BC = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 4DFB6A1323C62947008D22BC;
+					};
+				};
+			};
+			buildConfigurationList = 4DFB6A0F23C62947008D22BC /* Build configuration list for PBXProject "PrideStar" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4DFB6A0B23C62947008D22BC;
+			productRefGroup = 4DFB6A1523C62947008D22BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4DFB6A1323C62947008D22BC /* PrideStar */,
+				4DFB6A2923C62949008D22BC /* PrideStarTests */,
+				4DFB6A3423C62949008D22BC /* PrideStarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4DFB6A1223C62947008D22BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DFB6A2423C62948008D22BC /* LaunchScreen.storyboard in Resources */,
+				4DFB6A2123C62948008D22BC /* Assets.xcassets in Resources */,
+				4DFB6A1F23C62947008D22BC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DFB6A2823C62949008D22BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DFB6A3323C62949008D22BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		45CC35857BCC97CD0DEB1A64 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PrideStar-PrideStarUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8057F26A194D38396B86B0F7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PrideStar-PrideStarUITests/Pods-PrideStar-PrideStarUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PrideStar-PrideStarUITests/Pods-PrideStar-PrideStarUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PrideStar-PrideStarUITests/Pods-PrideStar-PrideStarUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8E3E67BEF4DF869B8F5000CD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PrideStarTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B33CBB844EE5E97516E48099 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PrideStar/Pods-PrideStar-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PrideStar/Pods-PrideStar-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PrideStar/Pods-PrideStar-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E97D5DFDB356CF9FA4B696F3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PrideStar-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4DFB6A1023C62947008D22BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DFB6A4E23C63BE1008D22BC /* AdManager.swift in Sources */,
+				4DFB6A1C23C62947008D22BC /* MainViewController.swift in Sources */,
+				4DFB6A4823C62BD0008D22BC /* Colors.swift in Sources */,
+				4DFB6A1823C62947008D22BC /* AppDelegate.swift in Sources */,
+				4DFB6A4A23C62D24008D22BC /* PillLabel.swift in Sources */,
+				4DFB6A1A23C62947008D22BC /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DFB6A2623C62949008D22BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DFB6A2F23C62949008D22BC /* PrideStarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DFB6A3123C62949008D22BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DFB6A3A23C62949008D22BC /* PrideStarUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4DFB6A2C23C62949008D22BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4DFB6A1323C62947008D22BC /* PrideStar */;
+			targetProxy = 4DFB6A2B23C62949008D22BC /* PBXContainerItemProxy */;
+		};
+		4DFB6A3723C62949008D22BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4DFB6A1323C62947008D22BC /* PrideStar */;
+			targetProxy = 4DFB6A3623C62949008D22BC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4DFB6A1D23C62947008D22BC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4DFB6A1E23C62947008D22BC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4DFB6A2223C62948008D22BC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4DFB6A2323C62948008D22BC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4DFB6A3C23C62949008D22BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4DFB6A3D23C62949008D22BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4DFB6A3F23C62949008D22BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6014FF56559EDCC5A8DC8EF /* Pods-PrideStar.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7VHDJ49KYT;
+				INFOPLIST_FILE = PrideStar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = markdebbane.PrideStar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4DFB6A4023C62949008D22BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC50EC59D202E56B8CE37388 /* Pods-PrideStar.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7VHDJ49KYT;
+				INFOPLIST_FILE = PrideStar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = markdebbane.PrideStar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4DFB6A4223C62949008D22BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D712B807974326329661ED45 /* Pods-PrideStarTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7VHDJ49KYT;
+				INFOPLIST_FILE = PrideStarTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = markdebbane.PrideStarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PrideStar.app/PrideStar";
+			};
+			name = Debug;
+		};
+		4DFB6A4323C62949008D22BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1EA95074BEC6EF78F360ACD9 /* Pods-PrideStarTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7VHDJ49KYT;
+				INFOPLIST_FILE = PrideStarTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = markdebbane.PrideStarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PrideStar.app/PrideStar";
+			};
+			name = Release;
+		};
+		4DFB6A4523C62949008D22BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12D469371B7BA35BFD7C5DDF /* Pods-PrideStar-PrideStarUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7VHDJ49KYT;
+				INFOPLIST_FILE = PrideStarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = markdebbane.PrideStarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PrideStar;
+			};
+			name = Debug;
+		};
+		4DFB6A4623C62949008D22BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DA46D96C2FA2A20642866D7 /* Pods-PrideStar-PrideStarUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7VHDJ49KYT;
+				INFOPLIST_FILE = PrideStarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = markdebbane.PrideStarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PrideStar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4DFB6A0F23C62947008D22BC /* Build configuration list for PBXProject "PrideStar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DFB6A3C23C62949008D22BC /* Debug */,
+				4DFB6A3D23C62949008D22BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DFB6A3E23C62949008D22BC /* Build configuration list for PBXNativeTarget "PrideStar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DFB6A3F23C62949008D22BC /* Debug */,
+				4DFB6A4023C62949008D22BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DFB6A4123C62949008D22BC /* Build configuration list for PBXNativeTarget "PrideStarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DFB6A4223C62949008D22BC /* Debug */,
+				4DFB6A4323C62949008D22BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DFB6A4423C62949008D22BC /* Build configuration list for PBXNativeTarget "PrideStarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DFB6A4523C62949008D22BC /* Debug */,
+				4DFB6A4623C62949008D22BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4DFB6A0C23C62947008D22BC /* Project object */;
+}

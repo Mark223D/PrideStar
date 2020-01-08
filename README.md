@@ -1,0 +1,2 @@
+# PrideStar
+Google AdMob Assessment 
